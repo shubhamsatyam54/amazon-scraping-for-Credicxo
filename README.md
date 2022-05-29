@@ -6,3 +6,5 @@ I have used mainy find_by_xpath for finding the elements. just for the product i
 Most of the links are were not working. First I used request library for finding Error 404 through response code but both the link working/non-working the response code was 503. So i had to use Try-Except block to find out not working links. As it will give error if anyone of the attributes is missing, and in page not found one every element is missing.
 
 I had sorted the data according to country for the use.Lastly I have created a batch of 100 urls so that i can calculate the runtime.
+
+I will also give a try to the Catchpa solver 
