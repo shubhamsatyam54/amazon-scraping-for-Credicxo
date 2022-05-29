@@ -1,4 +1,4 @@
-# amazon-scraping-for-Credicxo
+# How I did it?
 I have done this project on jupyter notebook using selenium,with the help of pandas and dictionary. I have connected it with Google Colab so that any one can direct run the file. I have also connected it to MySql database but I have commented the MySql section code as it is not very handy to use it on Colab Platform. 
 
 I have used mainy find_by_xpath for finding the elements. just for the product image i have used class. First i had used id/name for finding the elements but it was not succesful so I concluded to Xpath. For the title, image and description i did not had to give much effort but for the cost, it took a lot of time. There were 3 different types of representation of cost. I tried every one byusing them individually but not got the desired output so lastly i had to combine all the three repsentation and bring a code which can work anywhere. 
